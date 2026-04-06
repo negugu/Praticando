@@ -25,7 +25,12 @@ dados$faixa_etaria = factor(dados$faixa_etaria)
 
 # 2. Distribuição de frequências e gráficos
 
-# (PREENCHER NA BRANCH analise-graficos,)
+# 2. Distribuição de frequências e gráficos
+table(dados$sexo)
+barplot(table(dados$faixa_etaria, dados$sexo), beside = TRUE, legend
+        = TRUE)
+hist(dados$altura)
+boxplot(dados$imc ~ dados$sexo)
 
 # use comandos para distribuição de frequências de sexo, gráfico de
 #colunas para faixa_etaria por sexo, histograma de altura, boxplot de
