@@ -38,7 +38,27 @@ boxplot(dados$imc ~ dados$sexo)
 
 # 3. Medidas descritivas
 
-# (PREENCHER NA BRANCH analise-medidas)
+# 3. Medidas descritivas
+minimo_idade = min(dados$idade)
+maximo_idade = max(dados$idade)
+mediana_idade = median(dados$idade)
+media_idade = mean(dados$idade)
+desvio_idade = sd(dados$idade)
+
+minimo_peso = min(dados$peso)
+maximo_peso = max(dados$peso)
+mediana_peso = median(dados$peso)
+media_peso = mean(dados$peso)
+desvio_peso = sd(dados$peso)
+
+minimo_altura = min(dados$altura)
+maximo_altura = max(dados$altura)
+mediana_altura = median(dados$altura)
+media_altura = mean(dados$altura)
+desvio_altura = sd(dados$altura)
+
+
+
 
 # use comandos de cálculo de mínimo, máximo, média, mediana e
 #desvio-padrão para idade, altura, peso e IMC
